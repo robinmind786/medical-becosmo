@@ -309,3 +309,108 @@ header {
 	font-size: 20px;
 	font-weight: 900;
 }
+
+.appointment .form-body {
+    padding: 70px 40px;
+}
+
+.appointment .appointment-form {
+	margin-top: 1rem;
+}
+
+.appointment input[type=text],
+.appointment input[type=tel],
+.appointment input[type=date] {
+    padding: 10px 20px 10px 20px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 3px 3px 3px 3px;
+    background-color: rgba(255,255,255,0.2);
+    color: #ffffff;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.appointment ::placeholder {
+	color: var(--normal-color);
+}
+
+.appointment .form-btn {
+	margin-top: 3rem;
+}
+
+.appointment .form-btn .btn {
+	border: 1px solid var(--normal-color);
+	color: var(--normal-color);
+	transition: all .3s ease;
+}
+
+.appointment .form-btn .btn:hover {
+	background: var(--normal-color);
+	color: #be6584;
+	cursor: pointer;
+}
+
+
+.custom-select {
+    position: relative;
+}
+
+.custom-select select {
+  display: none;
+}
+
+.select-selected {
+    padding: 5px 20px 5px 20px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 3px 3px 3px 3px;
+    background-color: rgba(255,255,255,0.2);
+    color: #ffffff;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+.select-items div,.select-selected {
+    color: #ffffff;
+    /*padding: 8px 16px;*/
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    font-size: 15px;
+    user-select: none;
+}
+
+.select-items {
+    position: absolute;
+    background-color: #be6584;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}

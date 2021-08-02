@@ -1,0 +1,217 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #616262;
+}
+
+
+html {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+
+:root {
+	--dark-color: #a4a6a8;
+	--normal-color: #ffffff;
+	--danger-color: #f0d3d0;
+}
+
+header {
+	background: url('/img/becosmo-slider-1.jpg') no-repeat center center/cover;
+	height: 120vh;
+}
+
+
+
+/*Category*/
+.category {
+
+}
+
+.category .category-content {
+	width: 100%;
+	height: 100%;
+}
+
+.category .category-content .category-img {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.category .category-content .category-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.category .category-content .category-img .category-info {
+	position: absolute;
+	bottom: 3rem;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
+}
+
+/*About*/
+.about {
+	padding-top: 80px;
+	background: #f6f7f9;
+}
+
+.about .about-bg {
+	background: #f6f7f9;
+}
+
+.about .about-content {
+	height: 100%;
+}
+
+.about .about-img {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about .about-img img {
+	width: 130px;
+	height: 90px;
+}
+
+.about .about-info {
+	padding: 0 4rem;
+}
+
+.about .about-info .about-alert,
+.about .about-info .about-desc,
+.about .about-info .about-img {
+	margin-top: 2rem;
+}
+
+.about .about-info .about-btn {
+	margin-top: 3rem;
+}
+
+.about .about-info .about-btn .btn {
+	border: 2px solid var(--dark-color);
+	transition: all .4s ease;
+}
+
+.about .about-info .about-btn .btn:hover {
+	background: var(--dark-color);
+	color: var(--normal-color);
+}
+
+/*Services*/
+.services .item-content {
+	text-align: center;
+	padding: 0 60px;
+}
+
+.services .item-content .services-desc {
+	margin-top: 20px;
+}
+
+.services .item-content .section-title a {
+	transition: all .3s ease;
+}
+
+.services .item-content .section-title a:hover {
+	color: var(--danger-color);
+}
+
+
+/*Image Compare*/
+.compare {
+	padding: 50px 0;
+	padding-bottom: 10rem;
+	background: url('/img/becosmetic_02.jpg') no-repeat center center/cover;
+}
+
+.compare .compare-content {
+	margin-left: 22%;
+}
+
+.compare .img-comp-container {
+    position: relative;
+    height: 200px;
+}
+
+.compare .img-comp-img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow:hidden;
+}
+
+.compare .img-comp-img img {
+	width: 600px;
+	height: 400px;
+    display:block;
+   vertical-align:middle;
+}
+
+.compare .img-comp-slider {
+	position: absolute;
+	z-index:9;
+	cursor: ew-resize;
+	width: 40px;
+	height: 40px;
+	background-color: #FFC0CB;
+	/*opacity: 0.7;*/
+	border-radius: 50%;
+}
+
+.compare .compare-info {
+	text-align: center;
+	padding: 60px 0;
+}
+
+.compare h3,
+.compare p {
+	color: var(--normal-color);
+}
+
+.compare .compare-alert {
+	margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+	.compare {
+		display: none;
+	}
+}
+
+/*Help Line*/
+.helpline {
+	background: url('/img/becosmetic_bg-02.jpg') no-repeat center center/cover;
+	padding: 200px 0 150px 0;
+}
+
+.helpline .helpline-content {
+	text-align: center;
+}
+
+
+.helpline .helpline-content .helpline-title {
+	margin-top: 3rem;
+}
+
+.helpline .helpline-content .helpline-no {
+	color: #be6584;
+	font-size: 25px;
+}
+
+.helpline .helpline-content .helpline-no span {
+	font-weight: 900;
+}

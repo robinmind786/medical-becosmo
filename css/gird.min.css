@@ -1,0 +1,144 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 576px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/*Flex System*/
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+.rows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .col-3 {
+    width: 100%;
+  }
+  .col-6 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .col-3 {
+    width: 100%;
+  }
+  .col-6 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .col-3 {
+    width: 50%;
+  }
+  .col-6 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .col-3 {
+    width: 25%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .col-3 {
+    width: 25%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+}
+
+
+
+/*Grid system*/
+.grid {
+    display: grid;
+    margin: 0!important;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .item-3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .item-3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .item-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .item-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .item-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

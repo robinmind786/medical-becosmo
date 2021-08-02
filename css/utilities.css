@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+/*h1, h2, h3, h4, h5, h6 {
+  margin: 15px 0; 
+}
+
+h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child {
+  margin-bottom: 0; 
+}*/
+
+img {
+	width: 100%;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+a {
+	text-decoration: none;
+    color: #222;
+}
+
+ul li {
+	list-style: none;
+}
+
+/*--------Button--------*/
+.btn {
+	font-family: "Lato", Sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.1em;
+    letter-spacing: 2px;
+    fill: #292c30;
+    color: #292c30;
+    background-color: rgba(41,44,48,0);
+    border-radius: 30px 30px 30px 30px;
+    padding: 21px 50px 21px 50px;
+}
+
+
+
+/*----------Section-------------*/
+.section-padding {
+	padding: 80px 0;
+}
+/*p*/
+.section-alert {
+	font-family: "Lato", Sans-serif;
+    color: #222;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.3em;
+    letter-spacing: 0px;
+}
+
+/*p*/
+.section-desc {
+    color: #292c30;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    /*line-height: 1.5em;*/
+}
+
+/*h2*/
+.section-heading-lg {
+    font-family: "Abril Fatface", Sans-serif;
+    color: #222;
+    font-size: 82px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+
+/*h4->a*/
+.section-title {
+	color: #292c30;
+    font-family: "Oswald", Sans-serif;
+    font-size: 24px;
+    color: #222;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*h6*/
+.heading-title {
+	font-family: "Oswald", Sans-serif;
+	color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    /*line-height: 1.5em;*/
+}
+
+/*h3*/
+.heading-title-lg {
+    font-family: "Abril Fatface", Sans-serif;
+	color: #ffffff;
+    font-size: 44px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 0.9em;
+}
+
+
+
+/*Services*/

@@ -136,5 +136,5 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " actives";
-  setTimeout(showSlides, 5000);
+  setTimeout(showSlides, 500);
 }

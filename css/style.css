@@ -933,3 +933,40 @@ footer .footer-designer {
 footer .footer-designer span{
 	color: var(--danger-color);
 }
+
+
+
+
+/*page*/
+.page_link {
+    padding: 20px;
+    color: var(--normal-color);
+    background: url('/img/page.jpg') no-repeat center center/cover;
+}
+
+.page_link h2,
+.page_link a {
+    color: #000000;
+}
+
+.page_link h2 {
+	font-size: 35px;
+}
+
+.page_link .go_back_page a:hover,
+.page_link .go_back_page a.active {
+	color: var(--danger-color);
+}
+
+
+/*Partner*/
+.clinet {
+	background: #f9fbfc;
+}
+.clinet .clinet-item {
+    width: 100%;
+}
+
+.clinet .clinet-item img {
+    width: 100%;
+}

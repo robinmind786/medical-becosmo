@@ -121,6 +121,22 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+  .contact-item-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .col-4 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .table-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-4 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -136,6 +152,22 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  .contact-item-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .col-4 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .table-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-4 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -148,6 +180,22 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .item-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact-item-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 50% 50%);
+  }
+  .col-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .table-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-4 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -166,6 +214,22 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
+  .contact-item-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 40% 60%);
+  }
+  .col-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .table-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -178,6 +242,22 @@
     grid-template-columns: repeat(3, 1fr);
   }
   .item-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .contact-item-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 40% 60%);
+  }
+  .col-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .table-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }

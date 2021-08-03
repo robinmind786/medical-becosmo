@@ -92,3 +92,11 @@
 .appointment .appointment-bg-img1{
 	background: #56b0d2;
 }
+
+.appointment .team-overlay {
+	text-align: center;
+}
+
+.appointment .team-overlay a {
+	color: var(--normal-color);
+}

@@ -57,3 +57,7 @@ prevBtn.addEventListener("click", function () {
   showPerson(currentItem);
 });
 
+
+
+
+

@@ -1,0 +1,83 @@
+/*team*/
+.teams {
+
+}
+.teams .item-content {
+    padding-bottom: 3rem;
+    transition: all .5s ease;
+}
+
+.teams .item-content:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .3);
+}
+
+.teams .item-content .team-img {
+    position: relative;
+    width: 100%;
+}
+
+.teams .item-content .team-img .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    background: rgba(0, 0, 0, .4);
+    transition: all .3s ease;
+    opacity: 0;
+}
+
+.teams .item-content .team-img:hover .overlay {
+    opacity: 1;
+}
+
+.teams .item-content .team-img .overlay .team-social {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.teams .item-content .team-img .overlay .team-social ul {
+    display: flex;
+}
+.teams .item-content .team-img .overlay .team-social ul li {
+    list-style: none;
+    padding: 0 5px;
+}
+
+.teams .item-content .team-img .overlay .team-social ul li a {
+    color: var(--normal-color);
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.teams .item-content .team-img .overlay .team-social ul li a:hover {
+    color: var(--main-color);
+}
+
+.teams img {
+    width: 100%;
+}
+
+.teams .team-info {
+    padding-top: 16px;
+    text-align: center;
+    line-height: 14px;
+}
+
+.teams .team-info .team-name h4 a {
+    text-decoration: none;
+    color: var(--dark-color);
+    transition: all .3s ease;
+    background: none;
+}
+
+.teams .team-info .team-name h4 a:hover {
+    color: var(--danger-color);
+}
+
+.teams .team-info .team-phone,
+.teams .team-info .team-email {
+    font-size: 1rem;
+}
